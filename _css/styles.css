@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: white;
 }
 body {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 100%;
 	color: white;
 	width: 65%;
@@ -30,7 +30,7 @@ h2 {
 }
 h3 {
 	font-size: 1.5em;
-	font: 2em Georgia, "Times New Roman", Times, serif;
+	font: Georgia, "Times New Roman", Times, serif;
 }
 p {
 	margin-bottom: 1em;
