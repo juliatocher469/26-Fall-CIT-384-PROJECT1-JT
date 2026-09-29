@@ -1,3 +1,12 @@
+<!--ELEMENTS:
+line 37 - <sup> element is used to define a subscript text. Here, I used it for the '4th' in fourth of July.
+line 45 - <area> element specifies where the user can click, whether it's on a shape made in html or on an img. 
+            I used it here to point to the image's source where it'd open in a new tab.
+line 49 - <figcaption> is an element that places a caption next to an img element. 
+        Though you could just use <p> if you wanted to, the core purpose lies in the semantic meaning & 
+        how web browsers and assistive technologies use the <figcaption> element. Here, I embedded it within
+            a <figure> element.
+-->
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -30,7 +39,6 @@
         in Northern America. We will travel far and wide, from coast to coast and uncover some 
         truly dark American history.
         <br><br>
-        <!--<sup> element is used to define a subscript text-->
         The United States was "discovered" in 1492, and was founded as a country on July 4<sup>th</sup>, 1776. Despite that, this country was inhabited by people who are indigenous to the land, 
         dating further back than 15,000 years ago. Allegedly, the oldest account of a cryptid sighting in U.S. history is that of the Cape Ann Serpent in Massachusetts, spotted by writer and 
         traveler John Josselyn in 1638.
@@ -39,12 +47,8 @@
         <img class="center" src="images/cryptidMapUSA.jpg" usemap="#image-map" alt="Blacked out map of the United States with white 
         silhouttes of the monsters each state is best known for." width="600" height="400">
         <map name="image-map">
-        <!--<area> element specifies where the user can click, whether it's on a shape made in html or on an img. I used it here to point to the image's source where it'd open in a new tab.-->
         <area target="_blank" alt="Clickable area for the cryptid map, links to the map source." title="Cryptid Map of USA" href="https://www.instagram.com/p/C7nV0oiMTIJ/" coords="35,49,1144,669" shape="rect">
         </map>
-        <!--figcaption is an element that places a caption next to an img element. 
-        Though you could just use <p> if you wanted to, the core purpose lies in the semantic meaning & 
-        how web browsers and assistive technologies use the <figcaption> element.-->
         <figcaption>This map highlights all of the cryptids and monsters each state in America is most known for. <br>Click image to view source.</figcaption>
         </figure>
     </p>
