@@ -2,34 +2,69 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Introduction to HTML</title>
-<link href="_css/styles.css" rel="stylesheet" type="text/css">
+<title>Jersey Devil</title>
+<link href="./_css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>Comp 484
-Structuring Pages</h1>
-<ul>
-  <li><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
-  <li><a href="syntax.html" title="HTML syntax">HTML syntax</a></li>
-  <li><a href="structure.html" title="Structuring pages">Structuring pages</a></li>
-  <li><a href="links.html" title="Creating links">Creating links</a></li>
-  <li><a href="reference.html" title="HTML Reference">HTML reference</a></li>
-  <li><a href="next.html" title="Next steps">Next steps</a></li>
-</ul>
-<h2>Conveying meaning through structure</h2>
-<p>Creating properly structured pages is the foundation of any good website. A solid semantic structure allows you to convey meaning and properly represent content types through nothing more than the page's markup. This, in turn, makes your content more accessible, easier to index and search, and makes it easier to repurpose. Remember that there are a lot of different devices, robots, and other user agents that will be reading your code. <em>Without a consistent, semantic structure your site will be less effective.</em> </p>
-<h3>Sectioning elements </h3>
-<p>One way to add meaning to your content is to organize them into sections that convey meaning and structure. For example it's pretty standard to contain introductory information within a section, page navigation within its own area, the page's main content in its own region, and related information within a sidebar. HTML contains numerous elements that are designed to assist in the logical structuring and semantics of page content. </p>
-<p>In previous versions of HTML creating new sections of content was done almost exclusively through the use of <b>heading</b> tags, with <b>divs</b> being used to group areas of content together. <b>Class</b> or <b>ID</b> attributes would allow designers to attach more semantic meaning to the groups, although this meant little to most user agents. In HTML5 new sectioning and semantic elements were introduced to help represent commonly used sections and create more consistent page structures. Tags like the <b>aside</b>, <b>article</b>, <b>footer</b>, <b>header</b>, <b>main</b>, <b>nav</b>, and <b>section</b> allow authors to identify common page regions and convey more semantic meaning. </p>
-<p>Although some of these elements are very specific, in many cases which element you'll use and how you'll structure them is very much a judgment call. Make sure, however, that your finished structure represents the desired document outline. </p>
-<h3>Document outlines</h3> 
-<p>One of the fundamental concepts of HTML is that its documents can be represented by a document outline that summarizes the content of the page. Imagine a page being represented by a table of contents and you'll have a good idea of what one of these outlines might look like. These outlines assist in tasks such as quickly searching documents and making content easier to navigate for assistive devices. </p>
-<p>Prior to HTML5, document outlines were generated entirely through the use of headings. An H1 at the top of the page would serve to identify the page content, and subsequent headings would create sections and subsections inside of it. This meant that having a strategy for when to use certain headings was critical for maintaining consistent document structure. In HTML5 a new outline algorithm was introduced that added the new sectioning elements to the heading elements and created a more sophisticated outlining model. Although not currently implemented by user agents it is still recommended that authors familiarize themselves with it so that they're using the new sectioning and semantic tags properly. </p>
-<p>It is still considered to be a best practice to use heading tags to establish the document outline. Mozilla has a fantastic article on sections and outlines in HTML documents that I strongly recommend reading.</p>
-<h3>W3C Warning</h3>
-<p>At the time of the authoring of this course, the W3C had posted this warning regarding the HTML5 outline algorithm:</p>
-<blockquote>There are currently no known implementations of the outline algorithm in graphical browsers or assistive technology user agents, although the algorithm is implemented in other software such as conformance checkers. Therefore the outline algorithm cannot be relied upon to convey document structure to users. Authors are advised to use heading rank (h1-h6) to convey document structure.</blockquote>
-<h3>WAI-ARIA Roles</h3>
-<p>Carefully structuring an HTML page is the first step into ensuring that the content is accessible to all users. You should also use WAI-ARIA role attributes where appropriate to increase accessibility and improve semantics. WAI-ARIA is short for the Web Accessibility Initiative's Accessible Rich Internet Application specification. The roles attribute attempts to identify content and its capabilities by assigning it to a predefined role. This helps assistive devices understand what the content is, how it relates to other content, and how the content can be interacted with. The W3C has a fantastic resource on how WAI-ARIA works and how it should be used with HTML.</p>
+<h1 class="center">CRYPTIDS & GHOSTS</h1>
+<p class="center"><img src="images/ghost.gif" alt="ghost flying" width="180" height="200"></p>
+<table id="named" border="1" cellspacing="0" cellpadding="0">
+    <tr>
+        <td><a href="index.html" target="_blank" rel="next" title="Welcome Page"><b>Welcome Page</b></a></td>
+        <td><a href="poltergeists.html" target="_blank" rel="next" title="Poltergeists"><b>Poltergeists</b></a></td>
+    </tr>
+    <tr>
+        <td><a href="jerseyDevil.html" target="_blank" rel="next" title="Jersey Devil"><b>Jersey Devil</b></a></td>
+        <td><a href="hatMan.html" target="_blank" rel="next" title="The Hat Man"><b>The Hat Man</b></a></td>
+    </tr>
+</table>
+<section>
+<h2>Jersey Devil</h2>
+<p>The Jersey Devil is a legendary bipedal cryptid that is said to live in the Pine Barrens of Southern New Jersey. 
+  The Pine Barrens is a dense, massive 1.1 million-acre protected forest and natural ecosystem. It covers roughly 
+  around 22% of New Jersey across seven counties. The Jersey Devil dates back all the way to 1735, where a woman 
+  from New Jersey known as Jane Leeds had 12 children, and upon learning she was pregnant with her 13th, was so 
+  upset that she cried out in despair saying the child should be the devil. Legend has it the baby was born normal, 
+  before transforming into a winged, dragon-like creature with hooves, a horse-like head, and a forked tail.</p>
+<ol>
+  <h3><li>Bonaparte and the Devil (1812)</li></h3>
+    <ul>
+      <li>Napoleon's older brother, Joseph Bonaparte, claimed he saw the Jersey Devil while hunting around 
+        his Bordentown estate. <br>
+        <div style="text-align: center;">
+        <figure>
+          <img src="images/jerseyDevilnews.png" alt="Jersey Devil news article from 1812." width="405" height="480">
+          <figcaption style="text-align: center;">Trenton Times story on a string of Jersey Devil sightings in January 1909. <a href="https://www.nj.com/entertainment/2016/10/13_places_the_jersey_devil_has_been_spotted_in_the.html" target="_blank">Source.</a></figcaption>
+        </figure>    
+        </div>
+        </li>
+      </ul>
+  <h3><li>Devil Craze (1909)</li></h3>
+    <ul>
+      <li>Navy Commander allegedly saw the Jersey Devil and shot it while testing cannon balls at Hanover Mills Works in the Pine Barrens. 
+        This was only 1 of nearly 1,000 reports coming from eyewitnesses throughout South Jersey in January of 1909. So much so that bloodhounds 
+        refused to follow the tracks.
+      <div style="text-align: center;">
+      <figure>
+          <img src="images/jerseyBarrens.png" alt="Photo of dense forest in New Jersey called Jersey Barrens." width="445" height="395">
+          <figcaption style="text-align: center;">New Jersey Barrens. <a href="https://www.nature.org/en-us/about-us/where-we-work/united-states/new-jersey/stories-in-new-jersey/policy-priorities-government-relations/" target="_blank">Source.</a></figcaption>
+        </figure>
+        </div>
+        </li>
+    </ul>
+  <h3><li>Salem Cab Attack (1927)</li></h3>
+    <ul>
+      <li>A taxi driver in Salem City allegedly encountered the Jersey Devil when he was changing a tire. The man told the police 
+        the creature was pounding on the roof of the cab.
+      <div style="text-align: center;">
+      <figure>
+          <img src="images/vintageTaxi.png" alt="Photo of a taxi from the 1920s" width="465" height="335">
+          <figcaption style="text-align: center;">What the taxis would had looked like at the time of the incident. <a href="https://www.hemmings.com/stories/checker-cab-manufacturing-co/" target="_blank">Source.</a></figcaption>
+        </figure>
+        </div>
+      </ol>
+    <br>
+</section>
 </body>
 </html>
