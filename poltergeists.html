@@ -1,18 +1,14 @@
-<!--ELEMENT:
-line 54 - <blockquote> element indicates that the enclosed text is an extended quotation. 
-        A URL for the source of the quotation may be given using the cite attribute, 
-        while a text representation of the source can be given using the <cite> element.
-    ATTRIBUTES:
-line 64 - <style> attribute is inline CSS — it applies formatting directly to a single HTML element, written right in the tag itself, rather 
-than in a separate stylesheet or <style> block.
--->       
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Poltergeists</title>
 <link href="./_css/styles.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+<!--crossorigin attribute tells the browser whether to send user credentials 
+(cookies, HTTP auth, client-site SSL certs) along with a cross-origin request. 
+Here, it's anonymous because the browser makes the request without needing to send any credentials.
+This is shared upon all 4 pages-->
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet" crossorigin="anonymous">
 </head>
 <body>
 <h1 class="center">CRYPTIDS & GHOSTS</h1>
@@ -51,6 +47,9 @@ and Mrs. Herrmann said she believed there was "a definite physical force" behind
 <br><br>
 <div style="text-align: center;">
   <img class="center" src="images/hermannFamily.png" alt="Newspaper article about the Hermann Family with portraits of the father, mother, and son." width="600" height="400">
+  <!--<blockquote> element indicates that the enclosed text is an extended quotation. 
+        A URL for the source of the quotation may be given using the cite attribute, 
+        while a text representation of the source can be given using the <cite> element.-->
     <blockquote cite="https://www.horrorgeeklife.com/2020/09/16/the-true-stories-that-inspired-poltergeist-1982/">
     <p class="center">
       "The Herrmanns reported several other occurrences of glass bowls flying and upended bookcases, witnessed by the whole family. 
@@ -61,6 +60,8 @@ and Mrs. Herrmann said she believed there was "a definite physical force" behind
   <p class="center">—Catie Moyer, <cite>Horror Geek Life</cite></p>
 </div>
 <br><br>
+<!--style attribute is inline CSS — it applies formatting directly to a single HTML element, written right in the tag itself, rather 
+than in a separate stylesheet or <style> block-->
 <div style="text-align: center;">
 <figure>
   <img class="center" src="images/poltergeistPopper.png" alt="Spooky polaroid in a sepia filter of a 1950s nuclear family." width="600" height="400">
